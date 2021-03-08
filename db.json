@@ -2,7 +2,7 @@
   "client": [
     { "id": 1, "vm": "martin", "status": 1 }
   ],
-  "comments": [
+  "note": [
     { "id": 1, "note": "some notes", "clientId": 1 }
   ]
 }
