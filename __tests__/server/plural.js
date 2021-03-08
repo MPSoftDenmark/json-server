@@ -697,7 +697,7 @@ describe('Server', () => {
       test('should respond with html', () =>
         request(server)
           .get('/')
-          .expect(/You're successfully running JSON Server/)
+          .expect(/You're successfully connected to a MPSoft API/)
           .expect(200))
     })
 

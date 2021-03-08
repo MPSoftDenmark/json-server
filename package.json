@@ -9,7 +9,7 @@
     "public"
   ],
   "scripts": {
-    "postinstall": "husky install",
+    "_postinstall": "husky install",
     "test": "npm run build && cross-env NODE_ENV=test jest && npm run lint",
     "start": "babel-node -- src/cli/bin db.json -r routes.json",
     "lint": "eslint . --ignore-path .gitignore",
@@ -47,7 +47,7 @@
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.12.6",
     "@babel/preset-env": "^7.12.1",
-    "cross-env": "^7.0.2",
+    "cross-env": "^7.0.3",
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-config-standard": "^16.0.1",
