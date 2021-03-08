@@ -1,7 +1,7 @@
 {
   "name": "json-server",
-  "version": "0.16.3",
-  "description": "Get a full fake REST API with zero coding in less than 30 seconds",
+  "version": "1.0.2",
+  "description": "MPSoft Azure RDP REST API",
   "main": "./lib/server/index.js",
   "bin": "./lib/cli/bin.js",
   "files": [
@@ -90,12 +90,8 @@
     "dummy",
     "sandbox"
   ],
-  "author": "Typicode <typicode@gmail.com>",
+  "author": "Original source from Typicode",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/typicode/json-server/issues"
-  },
-  "homepage": "https://github.com/typicode/json-server",
   "engines": {
     "node": ">=10"
   },
